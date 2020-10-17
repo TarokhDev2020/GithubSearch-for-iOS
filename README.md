@@ -27,3 +27,6 @@ $ git clone https://github.com/TarokhDev2020/GithubSearch-for-iOS.git
 <img src="https://user-images.githubusercontent.com/72879576/96349108-38552e00-10ba-11eb-89ee-0f8d5ed0af80.png" alt="GithubSearch for iOS" width="250"/>
 <img src="https://user-images.githubusercontent.com/72879576/96349120-4dca5800-10ba-11eb-806f-e776002137a5.png" alt="GithubSearch for iOS" width="250"/>
 <img src="https://user-images.githubusercontent.com/72879576/96349136-6a669000-10ba-11eb-8fee-07e2c43af422.png" alt="GithubSearch for iOS" width="250"/>
+
+## MIT License ##
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
