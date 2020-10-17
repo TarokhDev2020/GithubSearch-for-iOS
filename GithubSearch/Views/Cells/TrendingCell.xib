@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="trendingCell" rowHeight="96" id="fl9-d0-QcP" customClass="TrendingCell" customModule="Github_Search" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="96"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fl9-d0-QcP" id="Jt0-n9-Igw">
+                <rect key="frame" x="0.0" y="0.0" width="383" height="96"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sample Github App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgm-JS-SXu">
+                        <rect key="frame" x="20" y="16" width="343" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Designedd and developer by Tarokh Mohammadi long live Tarokh" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajh-rr-lU5">
+                        <rect key="frame" x="20" y="42" width="343" height="38.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                        <color key="textColor" red="0.60392156862745094" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cgm-JS-SXu" firstAttribute="top" secondItem="Jt0-n9-Igw" secondAttribute="top" constant="16" id="68P-Rc-E2w"/>
+                    <constraint firstItem="ajh-rr-lU5" firstAttribute="top" secondItem="cgm-JS-SXu" secondAttribute="bottom" constant="5" id="YF6-Lt-epT"/>
+                    <constraint firstItem="ajh-rr-lU5" firstAttribute="leading" secondItem="Jt0-n9-Igw" secondAttribute="leading" constant="20" id="eAs-8y-9uv"/>
+                    <constraint firstItem="cgm-JS-SXu" firstAttribute="leading" secondItem="Jt0-n9-Igw" secondAttribute="leading" constant="20" id="mJd-Wa-hmS"/>
+                    <constraint firstAttribute="trailing" secondItem="ajh-rr-lU5" secondAttribute="trailing" constant="20" id="rYB-kt-4XH"/>
+                    <constraint firstAttribute="trailing" secondItem="cgm-JS-SXu" secondAttribute="trailing" constant="20" id="riO-vV-muo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionLabel" destination="ajh-rr-lU5" id="3UW-MN-7er"/>
+                <outlet property="nameLabel" destination="cgm-JS-SXu" id="1Hw-fQ-M3S"/>
+            </connections>
+            <point key="canvasLocation" x="150.72463768115944" y="95.089285714285708"/>
+        </tableViewCell>
+    </objects>
+</document>

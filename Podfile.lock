@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.2.2)
+  - DZNEmptyDataSet (1.8.1)
+  - MBProgressHUD (1.2.0)
+  - SSCustomTabbar (2.0.6)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - DZNEmptyDataSet
+  - MBProgressHUD
+  - SSCustomTabbar
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DZNEmptyDataSet
+    - MBProgressHUD
+    - SSCustomTabbar
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SSCustomTabbar: a52533e429bd40f52ce8d7ecb801f3521fbd56a0
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 1e27d9735fd079bcd9dedb728ac2dcba1ffe0c19
+
+COCOAPODS: 1.9.1
