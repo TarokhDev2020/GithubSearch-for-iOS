@@ -1,6 +1,11 @@
 # GithubSearch-for-iOS
 Search and get the most trending github repositories
 
+## Features
+* Show the best trending github repositories
+* Search functionality
+* Add your favorite github repository to your favorite (read it later)
+
 ## Installation ##
 * Git and clone <br/>
 ```bash
